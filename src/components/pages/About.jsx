@@ -28,10 +28,10 @@ const About = () => {
                       </div>
                   </div>
 
-                  <div className='w-full h-full bg-green-300 pt-2'>
-                      <div className='w-full h-full bg-blue-300 border-2 border-transparent rounded-xl pt-10 px-6'>
+                  <div className='w-full h-full pt-2'>
+                      <div className='w-full h-full bg-blue-800 border-2 border-transparent rounded pt-10 px-6'>
                         <h1 className='text-red-600 text-xl pb-2'>PURPOSE</h1>
-                        <p className='text-xl'>We financially enable MSMEs and their communities towards improved lives across Asia by providing Accessible, Fast, and Convenient loans, Today!.</p>
+                        <p className='text-white text-xl'>We financially enable MSMEs and their communities towards improved lives across Asia by providing Accessible, Fast, and Convenient loans, Today!.</p>
                       </div>
                   </div>
 
