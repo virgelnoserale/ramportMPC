@@ -4,7 +4,7 @@ import homeBackground from '../assets/R.jpg'
 
 const Home = () => {
   return (
-    <div  name="home" style={{backgroundImage:`url(${homeBackground})`,backgroundSize:'cover'}} className='h-screen w-full bg-red-400' >
+    <div  name="home" style={{backgroundImage:`url(${homeBackground})`,backgroundSize:'cover'}} className='h-screen w-full' >
       
       <div className='max-w-[1366px] mx-auto flex flex-col items-center justify-center h-full px-4 '>
           <div className='mx-auto text-center'>

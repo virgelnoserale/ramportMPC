@@ -1,7 +1,9 @@
-import './App.css';
+
 import NavBar from './components/NavBar';
-import Home from './components/pages/Home';
-import About from './components/pages/About';
+import Home from './pages/Home';
+import About from './pages/About';
+import Services from './pages/Services';
+
 
 function App() {
   return (
@@ -9,6 +11,7 @@ function App() {
     <NavBar />
     <Home />
     <About />
+    <Services />
          
     </div>
   );
