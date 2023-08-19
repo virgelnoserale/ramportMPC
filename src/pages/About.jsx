@@ -1,12 +1,11 @@
 import React from 'react'
-import aBackground from '../assets/aboutbg.jpg';
-import aboutImage from '../assets/aboutImg.jpg';
+import images from '../components/images.jsx';
 
 
 const About = () => {
   return (
     
-    <div name="about" style={{backgroundImage:`url(${aBackground})`}}>
+    <div name="about" style={{backgroundImage:`url(${images.aBackground})`}}>
       
       <div  className='max-w-[1366px] flex flex-col mx-auto text-justify h-screen pt-[80px]'> 
             {/**About */}
@@ -35,7 +34,7 @@ const About = () => {
                         <p className='text-white text-xl'>We financially enable MSMEs and their communities towards improved lives across Asia by providing Accessible, Fast, and Convenient loans, Today!.</p>
                       </div>
                   </div> */}
-                  <img src={aboutImage} alt='aboutImage' className='rounded-xl w-full md:brightness-50 hover:brightness-100 duration-300'/>
+                  <img src={images.aboutImage} alt='aboutImage' className='rounded-xl w-full md:brightness-50 hover:brightness-100 duration-300'/>
                 </div>  	 
               </div>
 

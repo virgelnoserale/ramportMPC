@@ -1,7 +1,5 @@
 import React from 'react'
-import savingImg from '../assets/savings.png';
-import loadImg from '../assets/loans.png';
-import insuranceImg from '../assets/insurance.png';
+import images from '../components/images.jsx';
 
 
 const About = () => {
@@ -24,7 +22,7 @@ const About = () => {
                 
                 
                 <div className='flex flex-col items-center h-full md:pt-2 pt-2'> 
-                  <img src={savingImg} alt='savingImage' className='rounded-xl w-[150px] md:w-[270px] hover:md:w-[300px] duration-300 '/>
+                  <img src={images.savingImg} alt='savingImage' className='rounded-xl w-[150px] md:w-[270px] hover:md:w-[300px] duration-300 '/>
                 </div>  	
                  
               </div>
@@ -32,14 +30,14 @@ const About = () => {
               <div className='h-full md:w-1/3 mx-auto'>
                 <div className='text-center text-2xl text-violet-800 md:text-2xl font-semibold'>LOAN</div>
                 <div className='flex flex-col items-center h-full md:pt-2 pt-2'> 
-                  <img src={loadImg} alt='loadImg' className='rounded-xl w-[150px] md:w-[270px] hover:md:w-[300px] duration-300'/>
+                  <img src={images.loadImg} alt='loadImg' className='rounded-xl w-[150px] md:w-[270px] hover:md:w-[300px] duration-300'/>
                 </div>  	 
               </div>
 
               <div className='h-full md:w-1/3 mx-auto'>
                 <div className='text-center text-2xl text-violet-800 md:text-2xl font-semibold'>INSURANCE</div>
                 <div className='flex flex-col items-center h-full md:pt-2 pt-2'> 
-                  <img src={insuranceImg} alt='insuranceImg' className='rounded-xl w-[150px] md:w-[270px] hover:md:w-[300px] duration-300'/>
+                  <img src={images.insuranceImg} alt='insuranceImg' className='rounded-xl w-[150px] md:w-[270px] hover:md:w-[300px] duration-300'/>
                 </div>  	 
               </div>
 
